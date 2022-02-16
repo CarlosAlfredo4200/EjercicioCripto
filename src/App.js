@@ -20,7 +20,7 @@ const Contenedor = styled.div`
 
 const Heading = styled.h1`
   font-family: "Lato", sans-serif;
-  color: #fff;
+  color: white;
   text-align:center;
   font-weight:700;
   margin-top: 60px;
@@ -31,7 +31,7 @@ const Heading = styled.h1`
      content: '';
      width: 90%;
      height: 3px;
-     background-color: rgb(255,255,255, 0.3);
+     background-color: blue;
      border-radius: 30px;
      display: block;
      margin: 10px auto 0 auto;
@@ -43,6 +43,9 @@ const Imagen = styled.img`
   width: 80%;
   margin: 60px auto 0 auto;
   display: block;
+   
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px white;
 `;
 
 
@@ -95,7 +98,7 @@ console.log(resultado);
 
     
     <Contenedor>
-      <Imagen src={ImagenCripto} alt="imagen"/>
+      <Imagen src="https://png.pngtree.com/element_our/md/20180712/md_5b4700ab483ff.jpg" alt="imagen"/>
       <div>
       <Heading>Cotiza Criptomonedas al instante</Heading>
       <Formulario 

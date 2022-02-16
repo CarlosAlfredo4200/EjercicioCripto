@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import styled from "@emotion/styled";
 
 const Label = styled.label`
-color: white;
+ color: aliceblue;
 display: block;
 font-family: 'lato', sans-serif;
 font-size: 20px;

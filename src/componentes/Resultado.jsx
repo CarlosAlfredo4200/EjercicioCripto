@@ -13,14 +13,15 @@ margin-top: 30px;
 
 const Imagen = styled.img`
 display: block;
-width: 150px;
+width: 120px;
 `
 
 const Texto = styled.p `
-font-size: 12px;
+font-size: 14px;
 span{
     font-weight: 700;
     color: rgb(245, 241, 11);
+    
 }
 `
 const Precio = styled.p `
